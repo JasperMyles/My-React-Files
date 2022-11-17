@@ -7,8 +7,8 @@ const About = (props) => {
         <
         div > {
             myMap.map((each) => {
-                return ( <
-                    div >
+                return (
+                <div >
                     <
                     h1 > { each.name.toUpperCase() } < /h1> <
                     p > { each.status.toLowerCase() } < /p> <
@@ -18,8 +18,8 @@ const About = (props) => {
                         `${each.name.toUpperCase()} IS MARRIED` :
                             `${each.name.toUpperCase()} IS NOT MARRIED`
                     } <
-                    /p> <
-                    /div>
+                    /p> 
+                    </div>
                 );
             })
         } <
